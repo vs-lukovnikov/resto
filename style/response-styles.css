@@ -1,0 +1,59 @@
+@media screen and (max-width:768px) {
+  html {
+    font-size: 14px;
+  }
+
+  .row {
+    max-width:100%;
+    min-width: 375px;
+  }
+
+   .wrapper {
+    max-width:100%;
+    min-width: 375px;
+  }
+
+
+  .nav-menu-toogle {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+  }
+
+  .nav-menu {
+    position: absolute;
+    float: initial;
+    width: 100%;
+    top: -235px;
+    left: 0;
+    transition: transform .5s;
+  }
+
+  .nav-menu.active {
+    transform: translateY(950%);
+  }
+  
+  .nav-menu__item {
+    float: initial;
+    width: 100%;
+    border: 1px solid lime;
+  }
+
+  .header-logo {
+    /*position: relative;*/
+  }
+  
+  .banner {
+    min-width: 100%;
+    max-width: 100%;
+  }
+
+  .banner-header h3:before{
+    left:140px;
+  }
+ 
+
+ 
+}
